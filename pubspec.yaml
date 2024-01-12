@@ -51,4 +51,4 @@ executables:
 
 
 scripts:
-  push: "git add . && git commit -m 'fix --continue' && git push"
+  push: 'git add . && git commit -m "fix --continue" && git push'
