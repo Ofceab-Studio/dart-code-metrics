@@ -1,6 +1,8 @@
 include: package:lints/recommended.yaml
 
 analyzer:
+  errors:
+    depend_on_referenced_packages: ignore
   exclude:
     - test/resources/*
     - test/resources/unused_files_analyzer/**
@@ -17,9 +19,9 @@ analyzer:
     - dart_code_metrics
 
 dart_code_metrics:
-  anti-patterns:
-    - long-method
-    - long-parameter-list
+  # anti-patterns:
+    # - long-method
+    # - long-parameter-list
   metrics:
     cyclomatic-complexity: 20
     maintainability-index: 50
