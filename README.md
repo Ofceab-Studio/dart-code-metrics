@@ -8,6 +8,10 @@
 
 This package has been discontinued and is no longer maintained.
 
+```dart
+dart pub global activate -sgit  https://github.com/Ofceab-Studio/dart-code-metrics.git
+```
+
 To continue using Dart Code Metrics, visit our website to purchase a license <https://dcm.dev/pricing/>.
 
 If you were a Dart Code Metrics contributor, you can receive a special license. Feel free to contact <info@dcm.dev>.
